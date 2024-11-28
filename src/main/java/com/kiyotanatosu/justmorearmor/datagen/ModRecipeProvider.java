@@ -43,6 +43,33 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ENDERITE_SCRAP.get()), has(ModItems.ENDERITE_SCRAP.get()))
                 .save(pWriter);
 
+        //Blocks
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDERITE_BLOCK.get())
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .define('C', ModItems.ENDERITE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
+                .save(pWriter);
+
+        //Stairs
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDERITE_STAIRS.get(), 4)
+                .pattern("C  ")
+                .pattern("CC ")
+                .pattern("CCC")
+                .define('C', ModBlocks.ENDERITE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.ENDERITE_BLOCK.get()), has(ModBlocks.ENDERITE_BLOCK.get()))
+                .save(pWriter);
+
+        //Slab
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDERITE_SLAB.get(), 2)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("CCC")
+                .define('C', ModBlocks.ENDERITE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.ENDERITE_BLOCK.get()), has(ModBlocks.ENDERITE_BLOCK.get()))
+                .save(pWriter);
+
         //Tools
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_SWORD.get())
                 .pattern(" C ")
@@ -91,18 +118,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         //Armor
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_HELMET.get())
-                .pattern("CCC")
+                .pattern("CNC")
                 .pattern("C C")
                 .pattern("   ")
                 .define('C', ModItems.ENDERITE_INGOT.get())
+                .define('N', Items.ENDER_EYE)
                 .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_CHESTPLATE.get())
                 .pattern("C C")
-                .pattern("CCC")
+                .pattern("CNC")
                 .pattern("CCC")
                 .define('C', ModItems.ENDERITE_INGOT.get())
+                .define('N', Items.NETHER_STAR)
                 .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
                 .save(pWriter);
 

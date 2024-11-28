@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "justmorearmor:block/enderite_slab"
+    },
+    "type=double": {
+      "model": "justmorearmor:block/enderite_block"
+    },
+    "type=top": {
+      "model": "justmorearmor:block/enderite_slab_top"
+    }
+  }
+}

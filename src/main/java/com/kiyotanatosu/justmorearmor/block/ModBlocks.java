@@ -19,6 +19,19 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, JustMoreArmor.MOD_ID);
 
+    //Blocks
+    public static final RegistryObject<Block> ENDERITE_BLOCK = registerBlock("enderite_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+
+    //Stairs
+    public static final RegistryObject<Block> ENDERITE_STAIRS = registerBlock("enderite_stairs",
+            () -> new StairBlock(() -> ModBlocks.ENDERITE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+
+    //Slabs
+    public static final RegistryObject<Block> ENDERITE_SLAB = registerBlock("enderite_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+
     //Ore
     public static final RegistryObject<Block> ENDERITE_ORE = registerBlock("enderite_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE)

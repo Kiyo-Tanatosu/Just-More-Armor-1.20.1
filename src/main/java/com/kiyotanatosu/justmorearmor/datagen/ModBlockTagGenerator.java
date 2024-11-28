@@ -23,7 +23,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.ENDERITE_ORE.get());
+                .add(ModBlocks.ENDERITE_ORE.get())
+                .add(ModBlocks.ENDERITE_BLOCK.get())
+                .add(ModBlocks.ENDERITE_STAIRS.get())
+                .add(ModBlocks.ENDERITE_SLAB.get());
+
 
     }
 }

@@ -17,6 +17,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
 
         blockWithItem(ModBlocks.ENDERITE_ORE);
+        blockWithItem(ModBlocks.ENDERITE_BLOCK);
+
+        stairsBlock(((StairBlock) ModBlocks.ENDERITE_STAIRS.get()), blockTexture(ModBlocks.ENDERITE_BLOCK.get()));
+
+        slabBlock(((SlabBlock) ModBlocks.ENDERITE_SLAB.get()), blockTexture(ModBlocks.ENDERITE_BLOCK.get()), blockTexture(ModBlocks.ENDERITE_BLOCK.get()));
 
     }
 

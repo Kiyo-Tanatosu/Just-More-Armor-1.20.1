@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "justmorearmor:block/enderite_block",
+    "side": "justmorearmor:block/enderite_block",
+    "top": "justmorearmor:block/enderite_block"
+  }
+}

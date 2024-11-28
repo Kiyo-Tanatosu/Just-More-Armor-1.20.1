@@ -1,4 +1,14 @@
-// 1.20.1	2024-11-28T19:06:13.6468534	Block States: justmorearmor
+// 1.20.1	2024-11-28T22:10:32.149072	Block States: justmorearmor
+3c421e86719d01fedc11e25050c554006ab0cb1e assets/justmorearmor/blockstates/enderite_block.json
 2237c055376ad3f3464939f6baf50a69425bb23f assets/justmorearmor/blockstates/enderite_ore.json
+a324098c204736cf894a40944c28fe4fea247ee1 assets/justmorearmor/blockstates/enderite_slab.json
+cfb2526915d8bfcb929e84afe14408cbf9de482f assets/justmorearmor/blockstates/enderite_stairs.json
+f37d87a9f27026d77b3ff6018bef04e9b1fbc2d0 assets/justmorearmor/models/block/enderite_block.json
 65ef81cd0063b7814482961750546c045a6f3a19 assets/justmorearmor/models/block/enderite_ore.json
+f40c4e1f63839230147f59d336dd18bd0fd7ae2c assets/justmorearmor/models/block/enderite_slab.json
+b14f9fcb8b3cd57531b62017dbcc750fcce91b1e assets/justmorearmor/models/block/enderite_slab_top.json
+222bedb2411ab1f27bf02564a63ba067ad668c48 assets/justmorearmor/models/block/enderite_stairs.json
+4a2937086876afae7f4d4b8ba8a0375e11bb1cee assets/justmorearmor/models/block/enderite_stairs_inner.json
+69e03171672f65dade41f3d9805e1de603bd6fc0 assets/justmorearmor/models/block/enderite_stairs_outer.json
+d6f5778a5c956b50070629a3abf0b487596bf0b5 assets/justmorearmor/models/item/enderite_block.json
 382baac3fee2b4e82933c3561be91cad684f934f assets/justmorearmor/models/item/enderite_ore.json

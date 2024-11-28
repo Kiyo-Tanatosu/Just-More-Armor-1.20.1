@@ -1,6 +1,7 @@
 package com.kiyotanatosu.justmorearmor.item;
 
 import com.kiyotanatosu.justmorearmor.JustMoreArmor;
+import com.kiyotanatosu.justmorearmor.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +18,18 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ENDERITE_INGOT.get()))
                     .title(Component.translatable("creativetab.just_more_armor_and_tools_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+
+                        //Ore
+                        output.accept(ModBlocks.ENDERITE_ORE.get());
+
+                        //Blocks
+                        output.accept(ModBlocks.ENDERITE_BLOCK.get());
+
+                        //Stairs
+                        output.accept(ModBlocks.ENDERITE_STAIRS.get());
+
+                        //Slabs
+                        output.accept(ModBlocks.ENDERITE_SLAB.get());
 
                         //Items
                         output.accept(ModItems.ENDERITE_INGOT.get());

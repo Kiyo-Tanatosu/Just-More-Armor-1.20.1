@@ -1,5 +1,8 @@
 {
   "values": [
-    "justmorearmor:enderite_ore"
+    "justmorearmor:enderite_ore",
+    "justmorearmor:enderite_block",
+    "justmorearmor:enderite_stairs",
+    "justmorearmor:enderite_slab"
   ]
 }

@@ -1,0 +1,4 @@
+// 1.20.1	2024-11-28T21:21:43.8635003	Registries
+0dcdce32a250e45afa8a4750607b403c7dabd57c data/justmorearmor/forge/biome_modifier/add_enderite_ore.json
+a7b573f545d0830448d259eee0b5bed03ea18425 data/justmorearmor/worldgen/configured_feature/enderite_ore.json
+493da16f3fb1374f73f7cc3743b0dd233042c0ff data/justmorearmor/worldgen/placed_feature/enderite_ore_placed.json

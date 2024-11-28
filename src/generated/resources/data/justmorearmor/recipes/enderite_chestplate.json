@@ -4,11 +4,14 @@
   "key": {
     "C": {
       "item": "justmorearmor:enderite_ingot"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
     }
   },
   "pattern": [
     "C C",
-    "CCC",
+    "CNC",
     "CCC"
   ],
   "result": {

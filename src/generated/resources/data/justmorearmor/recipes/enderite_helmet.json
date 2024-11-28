@@ -4,10 +4,13 @@
   "key": {
     "C": {
       "item": "justmorearmor:enderite_ingot"
+    },
+    "N": {
+      "item": "minecraft:ender_eye"
     }
   },
   "pattern": [
-    "CCC",
+    "CNC",
     "C C",
     "   "
   ],

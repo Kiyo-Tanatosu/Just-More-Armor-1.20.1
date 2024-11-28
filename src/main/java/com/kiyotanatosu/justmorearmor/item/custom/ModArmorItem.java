@@ -15,7 +15,7 @@ import java.util.Map;
 public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
-                    .put(ModArmorMaterials.ENDERITE, new MobEffectInstance(MobEffects.HEALTH_BOOST, 300, 2,
+                    .put(ModArmorMaterials.ENDERITE, new MobEffectInstance(MobEffects.REGENERATION, 300, 1,
                             false,false, true)).build();
 
 

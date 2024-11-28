@@ -1,6 +1,7 @@
 package com.kiyotanatosu.justmorearmor.datagen;
 
 import com.kiyotanatosu.justmorearmor.JustMoreArmor;
+import com.kiyotanatosu.justmorearmor.block.ModBlocks;
 import com.kiyotanatosu.justmorearmor.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
@@ -42,6 +43,12 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
+        //Stairs
+        evenSimplerBlockItem(ModBlocks.ENDERITE_STAIRS);
+
+        //Slabs
+        evenSimplerBlockItem(ModBlocks.ENDERITE_SLAB);
 
         //Items
         simpleItem(ModItems.ENDERITE_INGOT);
