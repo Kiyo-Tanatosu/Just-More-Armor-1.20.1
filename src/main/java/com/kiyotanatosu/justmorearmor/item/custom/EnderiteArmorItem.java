@@ -1,6 +1,8 @@
 package com.kiyotanatosu.justmorearmor.item.custom;
 
+import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ImmutableMap;
+import com.google.common.collect.Multimap;
 import com.kiyotanatosu.justmorearmor.item.ModArmorMaterials;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -13,11 +15,13 @@ import net.minecraft.world.level.Level;
 import java.util.Map;
 
 public class EnderiteArmorItem extends ArmorItem {
-    private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
-            (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
-                    .put(ModArmorMaterials.ENDERITE, new MobEffectInstance(MobEffects.REGENERATION, 300, 1,
-                            false,false, true)).build();
-    
+    private static final Multimap<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP;
+    static {
+        Multimap<ArmorMaterial, MobEffectInstance> map = ArrayListMultimap.create();
+        map.put(ModArmorMaterials.ENDERITE, new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 300, 1, false, false, true));
+        MATERIAL_TO_EFFECT_MAP = map;
+    }
+
 
 
 
@@ -35,7 +39,7 @@ public class EnderiteArmorItem extends ArmorItem {
     }
 
     private void evaluateArmorEffects(Player player) {
-        for (Map.Entry<ArmorMaterial, MobEffectInstance> entry : MATERIAL_TO_EFFECT_MAP.entrySet()) {
+        for (Map.Entry<ArmorMaterial, MobEffectInstance> entry : MATERIAL_TO_EFFECT_MAP.entries()) {
             ArmorMaterial mapArmorMaterial = entry.getKey();
             MobEffectInstance mapStatusEffect = entry.getValue();
 
