@@ -1,6 +1,7 @@
 package com.kiyotanatosu.justmorearmor.datagen;
 
 import com.kiyotanatosu.justmorearmor.JustMoreArmor;
+import com.kiyotanatosu.justmorearmor.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -14,6 +15,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+
+        blockWithItem(ModBlocks.ENDERITE_ORE);
 
     }
 

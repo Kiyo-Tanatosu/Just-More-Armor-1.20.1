@@ -1,6 +1,7 @@
 package com.kiyotanatosu.justmorearmor.datagen;
 
 import com.kiyotanatosu.justmorearmor.JustMoreArmor;
+import com.kiyotanatosu.justmorearmor.block.ModBlocks;
 import com.kiyotanatosu.justmorearmor.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -17,10 +18,9 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    //private static final List<ItemLike> RAW_CORRUPT_SMELTABLES = List.of(ModItems.RAW_CORRUPT_ORE.get(),
-           // ModBlocks.CORRUPT_ORE.get());
+    private static final List<ItemLike> ENDERITE_ORE_SMELTABLES = List.of(ModItems.ENDERITE_SCRAP.get(),
+            ModBlocks.ENDERITE_ORE.get());
 
-    //private static final List<ItemLike> CORRUPT_COAL_SMELTABLES = List.of(ModBlocks.CORRUPT_COAL_ORE.get());
 
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
@@ -28,6 +28,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
+
+        //Smeltables
+        oreBlasting(pWriter, ENDERITE_ORE_SMELTABLES, RecipeCategory.MISC, ModItems.ENDERITE_SCRAP.get(), 1f, 100, "enderite_scrap");
+        oreSmelting(pWriter, ENDERITE_ORE_SMELTABLES, RecipeCategory.MISC, ModItems.ENDERITE_SCRAP.get(), 1f, 200, "enderite_scrap");
+
+        //Items
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_INGOT.get())
+                .pattern("CCC")
+                .pattern("CSS")
+                .pattern("SS ")
+                .define('C', ModItems.ENDERITE_SCRAP.get())
+                .define('S', Items.DIAMOND)
+                .unlockedBy(getHasName(ModItems.ENDERITE_SCRAP.get()), has(ModItems.ENDERITE_SCRAP.get()))
+                .save(pWriter);
 
         //Tools
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_SWORD.get())

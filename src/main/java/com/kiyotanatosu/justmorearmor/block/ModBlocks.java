@@ -19,6 +19,11 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, JustMoreArmor.MOD_ID);
 
+    //Ore
+    public static final RegistryObject<Block> ENDERITE_ORE = registerBlock("enderite_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(5, 2000).requiresCorrectToolForDrops()));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

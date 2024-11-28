@@ -16,6 +16,9 @@ public class ModItems {
     public static final RegistryObject<Item> ENDERITE_INGOT = ITEMS.register("enderite_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ENDERITE_SCRAP = ITEMS.register("enderite_scrap",
+            () -> new Item(new Item.Properties()));
+
     //Tools
     public static final RegistryObject<Item> ENDERITE_SWORD = ITEMS.register("enderite_sword",
             () -> new SwordItem(ModToolTiers.ENDERITE, 3, -2.4f, new Item.Properties()));

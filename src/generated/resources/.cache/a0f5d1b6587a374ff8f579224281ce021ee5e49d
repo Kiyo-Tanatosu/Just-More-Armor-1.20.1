@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-28T14:49:27.3358626	Item Models: justmorearmor
+// 1.20.1	2024-11-28T19:16:27.7692064	Item Models: justmorearmor
 d7e0cd5e9eb60d89e248bd9d879ee11edd7f3e70 assets/justmorearmor/models/item/enderite_axe.json
 49b10c2c756f7862f2b76296a87360460fac03dc assets/justmorearmor/models/item/enderite_boots.json
 504f657730fd1b42ac68835c60c8d54a0aaa1744 assets/justmorearmor/models/item/enderite_boots_amethyst_trim.json
@@ -47,5 +47,6 @@ dc30ec23f60f8ecbbe6edd7a6e29e17b4614d90a assets/justmorearmor/models/item/enderi
 a3c95af4dadb67c4fd89d3a7464c8db7be39ca0c assets/justmorearmor/models/item/enderite_leggings_quartz_trim.json
 393168cd084fcc4e1524aff97dad7d160ff62d9e assets/justmorearmor/models/item/enderite_leggings_redstone_trim.json
 0e5dbcf372065ea4c7e5e0bfde5c2bf77eb63548 assets/justmorearmor/models/item/enderite_pickaxe.json
+7739924e634136559fb6c2e24a877ebf1c09ca6a assets/justmorearmor/models/item/enderite_scrap.json
 78fb66b0ee8347e0e62a6fd6e191e4785a09233c assets/justmorearmor/models/item/enderite_shovel.json
 0b5da73c5cb78ecff61ee55a1205c98805ba04c0 assets/justmorearmor/models/item/enderite_sword.json

@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
 
                         //Items
                         output.accept(ModItems.ENDERITE_INGOT.get());
+                        output.accept(ModItems.ENDERITE_SCRAP.get());
 
                         //Tools
                         output.accept(ModItems.ENDERITE_SWORD.get());

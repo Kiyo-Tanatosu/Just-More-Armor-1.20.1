@@ -45,6 +45,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //Items
         simpleItem(ModItems.ENDERITE_INGOT);
+        simpleItem(ModItems.ENDERITE_SCRAP);
 
         //Tools
         handheldItem(ModItems.ENDERITE_SWORD);
