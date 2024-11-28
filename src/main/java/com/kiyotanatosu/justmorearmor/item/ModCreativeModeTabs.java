@@ -28,8 +28,12 @@ public class ModCreativeModeTabs {
                         //Stairs
                         output.accept(ModBlocks.ENDERITE_STAIRS.get());
 
+                        output.accept(ModBlocks.EMERALD_STAIRS.get());
+
                         //Slabs
                         output.accept(ModBlocks.ENDERITE_SLAB.get());
+
+                        output.accept(ModBlocks.EMERALD_SLAB.get());
 
                         //Items
                         output.accept(ModItems.ENDERITE_INGOT.get());
@@ -42,11 +46,22 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERITE_SHOVEL.get());
                         output.accept(ModItems.ENDERITE_HOE.get());
 
+                        output.accept(ModItems.EMERALD_SWORD.get());
+                        output.accept(ModItems.EMERALD_PICKAXE.get());
+                        output.accept(ModItems.EMERALD_AXE.get());
+                        output.accept(ModItems.EMERALD_SHOVEL.get());
+                        output.accept(ModItems.EMERALD_HOE.get());
+
                         //Armor
                         output.accept(ModItems.ENDERITE_HELMET.get());
                         output.accept(ModItems.ENDERITE_CHESTPLATE.get());
                         output.accept(ModItems.ENDERITE_LEGGINGS.get());
                         output.accept(ModItems.ENDERITE_BOOTS.get());
+
+                        output.accept(ModItems.EMERALD_HELMET.get());
+                        output.accept(ModItems.EMERALD_CHESTPLATE.get());
+                        output.accept(ModItems.EMERALD_LEGGINGS.get());
+                        output.accept(ModItems.EMERALD_BOOTS.get());
 
                     })
                     .build());

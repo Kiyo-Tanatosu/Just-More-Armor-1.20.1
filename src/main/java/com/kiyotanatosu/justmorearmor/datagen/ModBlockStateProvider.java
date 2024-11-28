@@ -23,6 +23,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         slabBlock(((SlabBlock) ModBlocks.ENDERITE_SLAB.get()), blockTexture(ModBlocks.ENDERITE_BLOCK.get()), blockTexture(ModBlocks.ENDERITE_BLOCK.get()));
 
+
+        stairsBlock(((StairBlock) ModBlocks.EMERALD_STAIRS.get()), blockTexture(Blocks.EMERALD_BLOCK));
+
+        slabBlock(((SlabBlock) ModBlocks.EMERALD_SLAB.get()), blockTexture(Blocks.EMERALD_BLOCK), blockTexture(Blocks.EMERALD_BLOCK));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

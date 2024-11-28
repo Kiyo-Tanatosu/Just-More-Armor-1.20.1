@@ -28,9 +28,16 @@ public class ModBlocks {
             () -> new StairBlock(() -> ModBlocks.ENDERITE_BLOCK.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
 
+    public static final RegistryObject<Block> EMERALD_STAIRS = registerBlock("emerald_stairs",
+            () -> new StairBlock(() -> Blocks.EMERALD_BLOCK.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)));
+
     //Slabs
     public static final RegistryObject<Block> ENDERITE_SLAB = registerBlock("enderite_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> EMERALD_SLAB = registerBlock("emerald_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)));
 
     //Ore
     public static final RegistryObject<Block> ENDERITE_ORE = registerBlock("enderite_ore",

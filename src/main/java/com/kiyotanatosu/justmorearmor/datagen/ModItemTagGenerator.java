@@ -27,5 +27,11 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.ENDERITE_LEGGINGS.get(),
                         ModItems.ENDERITE_BOOTS.get());
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.EMERALD_HELMET.get(),
+                        ModItems.EMERALD_CHESTPLATE.get(),
+                        ModItems.EMERALD_LEGGINGS.get(),
+                        ModItems.EMERALD_BOOTS.get());
+
     }
 }

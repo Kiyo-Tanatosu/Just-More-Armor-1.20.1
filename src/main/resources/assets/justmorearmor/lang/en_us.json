@@ -7,16 +7,30 @@
   "block.justmorearmor.enderite_stairs": "Enderite Stairs",
   "block.justmorearmor.enderite_slab": "Enderite Slab",
 
+  "block.justmorearmor.emerald_stairs": "Emerald Stairs",
+  "block.justmorearmor.emerald_slab": "Emerald Slab",
+
   "item.justmorearmor.enderite_sword": "Enderite Sword",
   "item.justmorearmor.enderite_pickaxe": "Enderite Pickaxe",
   "item.justmorearmor.enderite_axe": "Enderite Axe",
   "item.justmorearmor.enderite_shovel": "Enderite Shovel",
   "item.justmorearmor.enderite_hoe": "Enderite Hoe",
 
+  "item.justmorearmor.emerald_sword": "Emerald Sword",
+  "item.justmorearmor.emerald_pickaxe": "Emerald Pickaxe",
+  "item.justmorearmor.emerald_axe": "Emerald Axe",
+  "item.justmorearmor.emerald_shovel": "Emerald Shovel",
+  "item.justmorearmor.emerald_hoe": "Emerald Hoe",
+
   "item.justmorearmor.enderite_helmet": "Enderite Helmet",
   "item.justmorearmor.enderite_chestplate": "Enderite Chestplate",
   "item.justmorearmor.enderite_leggings": "Enderite Leggings",
   "item.justmorearmor.enderite_boots": "Enderite Boots",
+
+  "item.justmorearmor.emerald_helmet": "Emerald Helmet",
+  "item.justmorearmor.emerald_chestplate": "Emerald Chestplate",
+  "item.justmorearmor.emerald_leggings": "Emerald Leggings",
+  "item.justmorearmor.emerald_boots": "Emerald Boots",
 
   "creativetab.just_more_armor_and_tools_tab": "Just More Armor And Tools"
 }

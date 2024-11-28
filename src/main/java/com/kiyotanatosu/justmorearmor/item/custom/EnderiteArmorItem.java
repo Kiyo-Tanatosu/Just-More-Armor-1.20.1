@@ -12,16 +12,18 @@ import net.minecraft.world.level.Level;
 
 import java.util.Map;
 
-public class ModArmorItem extends ArmorItem {
+public class EnderiteArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
                     .put(ModArmorMaterials.ENDERITE, new MobEffectInstance(MobEffects.REGENERATION, 300, 1,
                             false,false, true)).build();
+    
 
 
 
 
-    public ModArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
+
+    public EnderiteArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, pProperties);
     }
 

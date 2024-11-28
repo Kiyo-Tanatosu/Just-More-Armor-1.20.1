@@ -20,6 +20,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ENDERITE_STAIRS.get());
         this.add(ModBlocks.ENDERITE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.ENDERITE_SLAB.get()));
+
+        this.dropSelf(ModBlocks.EMERALD_STAIRS.get());
+        this.add(ModBlocks.EMERALD_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.EMERALD_SLAB.get()));
     }
 
     @Override

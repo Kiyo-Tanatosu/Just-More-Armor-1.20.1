@@ -1,4 +1,6 @@
-// 1.20.1	2024-11-28T22:10:32.1427778	Loot Tables
+// 1.20.1	2024-11-28T23:58:34.7039688	Loot Tables
+c09f365d7db2fbd83a8732fbb1a6d18f6308b987 data/justmorearmor/loot_tables/blocks/emerald_slab.json
+4dbcd39b22228084ce3e184827682c7fb123f3f2 data/justmorearmor/loot_tables/blocks/emerald_stairs.json
 3a1dd73f789649b4089fee98dd5af4b1e7788a60 data/justmorearmor/loot_tables/blocks/enderite_block.json
 e110cd49bbc3d9796943fc547d27263742b44290 data/justmorearmor/loot_tables/blocks/enderite_ore.json
 5d7424292defbad8c99857fe32aeb854fb8bc2f0 data/justmorearmor/loot_tables/blocks/enderite_slab.json

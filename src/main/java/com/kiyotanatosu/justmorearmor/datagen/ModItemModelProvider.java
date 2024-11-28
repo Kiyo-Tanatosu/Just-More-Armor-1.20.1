@@ -47,8 +47,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         //Stairs
         evenSimplerBlockItem(ModBlocks.ENDERITE_STAIRS);
 
+        evenSimplerBlockItem(ModBlocks.EMERALD_STAIRS);
+
         //Slabs
         evenSimplerBlockItem(ModBlocks.ENDERITE_SLAB);
+
+        evenSimplerBlockItem(ModBlocks.EMERALD_SLAB);
 
         //Items
         simpleItem(ModItems.ENDERITE_INGOT);
@@ -61,11 +65,22 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ENDERITE_SHOVEL);
         handheldItem(ModItems.ENDERITE_HOE);
 
+        handheldItem(ModItems.EMERALD_SWORD);
+        handheldItem(ModItems.EMERALD_PICKAXE);
+        handheldItem(ModItems.EMERALD_AXE);
+        handheldItem(ModItems.EMERALD_SHOVEL);
+        handheldItem(ModItems.EMERALD_HOE);
+
         //Armor
         trimmedArmorItem(ModItems.ENDERITE_HELMET);
         trimmedArmorItem(ModItems.ENDERITE_CHESTPLATE);
         trimmedArmorItem(ModItems.ENDERITE_LEGGINGS);
         trimmedArmorItem(ModItems.ENDERITE_BOOTS);
+
+        trimmedArmorItem(ModItems.EMERALD_HELMET);
+        trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
+        trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
+        trimmedArmorItem(ModItems.EMERALD_BOOTS);
 
     }
 

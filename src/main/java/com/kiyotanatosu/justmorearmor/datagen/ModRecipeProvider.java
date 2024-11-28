@@ -11,6 +11,7 @@ import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.Iterator;
@@ -61,6 +62,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.ENDERITE_BLOCK.get()), has(ModBlocks.ENDERITE_BLOCK.get()))
                 .save(pWriter);
 
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.EMERALD_STAIRS.get(), 4)
+                .pattern("C  ")
+                .pattern("CC ")
+                .pattern("CCC")
+                .define('C', Blocks.EMERALD_BLOCK)
+                .unlockedBy(getHasName(Blocks.EMERALD_BLOCK), has(Blocks.EMERALD_BLOCK))
+                .save(pWriter);
+
         //Slab
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDERITE_SLAB.get(), 2)
                 .pattern("   ")
@@ -68,6 +78,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("CCC")
                 .define('C', ModBlocks.ENDERITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.ENDERITE_BLOCK.get()), has(ModBlocks.ENDERITE_BLOCK.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.EMERALD_SLAB.get(), 2)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("CCC")
+                .define('C', Blocks.EMERALD_BLOCK)
+                .unlockedBy(getHasName(Blocks.EMERALD_BLOCK), has(Blocks.EMERALD_BLOCK))
                 .save(pWriter);
 
         //Tools
@@ -116,6 +135,52 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
                 .save(pWriter);
 
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SWORD.get())
+                .pattern(" C ")
+                .pattern(" C ")
+                .pattern(" S ")
+                .define('C', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_PICKAXE.get())
+                .pattern("CCC")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_AXE.get())
+                .pattern("CC ")
+                .pattern("CS ")
+                .pattern(" S ")
+                .define('C', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SHOVEL.get())
+                .pattern(" C ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_HOE.get())
+                .pattern("CC ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
         //Armor
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_HELMET.get())
                 .pattern("CNC")
@@ -149,6 +214,39 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("   ")
                 .define('C', ModItems.ENDERITE_INGOT.get())
                 .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_HELMET.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("   ")
+                .define('C', Items.EMERALD)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_CHESTPLATE.get())
+                .pattern("C C")
+                .pattern("CCC")
+                .pattern("CCC")
+                .define('C', Items.EMERALD)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_LEGGINGS.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("C C")
+                .define('C', Items.EMERALD)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_BOOTS.get())
+                .pattern("C C")
+                .pattern("C C")
+                .pattern("   ")
+                .define('C', Items.EMERALD)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
                 .save(pWriter);
 
     }
