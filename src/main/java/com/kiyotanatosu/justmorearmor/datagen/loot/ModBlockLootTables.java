@@ -24,6 +24,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.EMERALD_STAIRS.get());
         this.add(ModBlocks.EMERALD_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.EMERALD_SLAB.get()));
+
+        this.dropSelf(ModBlocks.HELLSTONE_ORE.get());
+        this.dropSelf(ModBlocks.HELLSTONE_BLOCK.get());
+        this.dropSelf(ModBlocks.HELLSTONE_STAIRS.get());
+        this.add(ModBlocks.HELLSTONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.HELLSTONE_SLAB.get()));
     }
 
     @Override

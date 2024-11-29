@@ -22,22 +22,33 @@ public class ModCreativeModeTabs {
                         //Ore
                         output.accept(ModBlocks.ENDERITE_ORE.get());
 
+                        output.accept(ModBlocks.HELLSTONE_ORE.get());
+
                         //Blocks
                         output.accept(ModBlocks.ENDERITE_BLOCK.get());
+
+                        output.accept(ModBlocks.HELLSTONE_BLOCK.get());
 
                         //Stairs
                         output.accept(ModBlocks.ENDERITE_STAIRS.get());
 
                         output.accept(ModBlocks.EMERALD_STAIRS.get());
 
+                        output.accept(ModBlocks.HELLSTONE_STAIRS.get());
+
                         //Slabs
                         output.accept(ModBlocks.ENDERITE_SLAB.get());
 
                         output.accept(ModBlocks.EMERALD_SLAB.get());
 
+                        output.accept(ModBlocks.HELLSTONE_SLAB.get());
+
                         //Items
                         output.accept(ModItems.ENDERITE_INGOT.get());
                         output.accept(ModItems.ENDERITE_SCRAP.get());
+
+                        output.accept(ModItems.HELLSTONE_INGOT.get());
+                        output.accept(ModItems.HELLSTONE.get());
 
                         //Tools
                         output.accept(ModItems.ENDERITE_SWORD.get());
@@ -64,6 +75,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PRISMARINE_SHOVEL.get());
                         output.accept(ModItems.PRISMARINE_HOE.get());
 
+                        output.accept(ModItems.HELLSTONE_SWORD.get());
+                        output.accept(ModItems.HELLSTONE_PICKAXE.get());
+                        output.accept(ModItems.HELLSTONE_AXE.get());
+                        output.accept(ModItems.HELLSTONE_SHOVEL.get());
+                        output.accept(ModItems.HELLSTONE_HOE.get());
+
                         //Armor
                         output.accept(ModItems.ENDERITE_HELMET.get());
                         output.accept(ModItems.ENDERITE_CHESTPLATE.get());
@@ -84,6 +101,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PRISMARINE_CHESTPLATE.get());
                         output.accept(ModItems.PRISMARINE_LEGGINGS.get());
                         output.accept(ModItems.PRISMARINE_BOOTS.get());
+
+                        output.accept(ModItems.HELLSTONE_HELMET.get());
+                        output.accept(ModItems.HELLSTONE_CHESTPLATE.get());
+                        output.accept(ModItems.HELLSTONE_LEGGINGS.get());
+                        output.accept(ModItems.HELLSTONE_BOOTS.get());
 
 
                     })

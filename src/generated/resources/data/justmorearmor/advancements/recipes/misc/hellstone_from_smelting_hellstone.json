@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hellstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "justmorearmor:hellstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "justmorearmor:hellstone_from_smelting_hellstone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_hellstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "justmorearmor:hellstone_from_smelting_hellstone"
+    ]
+  },
+  "sends_telemetry_event": false
+}

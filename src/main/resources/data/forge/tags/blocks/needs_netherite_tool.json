@@ -3,6 +3,10 @@
     "justmorearmor:enderite_ore",
     "justmorearmor:enderite_block",
     "justmorearmor:enderite_stairs",
-    "justmorearmor:enderite_slab"
+    "justmorearmor:enderite_slab",
+    "justmorearmor:hellstone_ore",
+    "justmorearmor:hellstone_block",
+    "justmorearmor:hellstone_stairs",
+    "justmorearmor:hellstone_slab"
   ]
 }

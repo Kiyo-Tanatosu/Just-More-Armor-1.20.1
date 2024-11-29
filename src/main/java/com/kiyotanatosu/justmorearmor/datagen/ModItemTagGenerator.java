@@ -45,5 +45,11 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.PRISMARINE_LEGGINGS.get(),
                         ModItems.PRISMARINE_BOOTS.get());
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.HELLSTONE_HELMET.get(),
+                        ModItems.HELLSTONE_CHESTPLATE.get(),
+                        ModItems.HELLSTONE_LEGGINGS.get(),
+                        ModItems.HELLSTONE_BOOTS.get());
+
     }
 }

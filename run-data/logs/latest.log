@@ -1,33 +1,33 @@
-[29Nov2024 12:05:47.230] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Patri\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, justmorearmor, --all, --output, D:\Just More Armor 1.20.1\src\generated\resources, --existing, D:\Just More Armor 1.20.1\src\main\resources]
-[29Nov2024 12:05:47.240] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[29Nov2024 12:05:47.517] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[29Nov2024 12:05:47.641] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Patri/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[29Nov2024 12:05:48.744] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[29Nov2024 12:05:48.755] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[29Nov2024 12:05:48.763] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[29Nov2024 12:05:48.774] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[29Nov2024 12:05:49.013] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[29Nov2024 12:05:52.128] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Patri\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, justmorearmor, --all, --output, D:\Just More Armor 1.20.1\src\generated\resources, --existing, D:\Just More Armor 1.20.1\src\main\resources]
-[29Nov2024 12:05:52.764] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [justmorearmor]
-[29Nov2024 12:05:59.463] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[29Nov2024 12:05:59.464] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[29Nov2024 12:05:59.927] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[29Nov2024 12:05:59.947] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 14.62 ms
-[29Nov2024 12:06:00.629] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Patri/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[29Nov2024 12:06:00.630] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Patri/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[29Nov2024 12:06:00.965] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[29Nov2024 12:06:01.076] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 108 ms
-[29Nov2024 12:06:01.076] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[29Nov2024 12:06:01.154] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 77 ms
-[29Nov2024 12:06:01.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: justmorearmor
-[29Nov2024 12:06:01.351] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: justmorearmor finished after 196 ms
-[29Nov2024 12:06:01.351] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: justmorearmor
-[29Nov2024 12:06:01.512] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: justmorearmor finished after 159 ms
-[29Nov2024 12:06:01.512] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id justmorearmor
-[29Nov2024 12:06:01.530] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id justmorearmor finished after 17 ms
-[29Nov2024 12:06:01.530] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id justmorearmor
-[29Nov2024 12:06:01.533] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id justmorearmor finished after 2 ms
-[29Nov2024 12:06:01.533] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[29Nov2024 12:06:01.553] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 20 ms
-[29Nov2024 12:06:01.554] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 588 ms
-[29Nov2024 12:06:01.673] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 328, old count: 192, new count: 327, removed stale: 2, written: 135
+[30Nov2024 09:40:05.923] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Patri\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, justmorearmor, --all, --output, D:\Just More Armor 1.20.1\src\generated\resources, --existing, D:\Just More Armor 1.20.1\src\main\resources]
+[30Nov2024 09:40:05.928] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[30Nov2024 09:40:06.131] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[30Nov2024 09:40:06.225] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Patri/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[30Nov2024 09:40:06.620] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[30Nov2024 09:40:06.625] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[30Nov2024 09:40:06.630] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[30Nov2024 09:40:06.635] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Patri\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[30Nov2024 09:40:06.756] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[30Nov2024 09:40:09.205] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Patri\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, justmorearmor, --all, --output, D:\Just More Armor 1.20.1\src\generated\resources, --existing, D:\Just More Armor 1.20.1\src\main\resources]
+[30Nov2024 09:40:10.243] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [justmorearmor]
+[30Nov2024 09:40:17.202] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[30Nov2024 09:40:17.204] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[30Nov2024 09:40:17.656] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[30Nov2024 09:40:17.665] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 4.901 ms
+[30Nov2024 09:40:18.148] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Patri/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[30Nov2024 09:40:18.149] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Patri/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[30Nov2024 09:40:18.460] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[30Nov2024 09:40:18.555] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 95 ms
+[30Nov2024 09:40:18.556] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[30Nov2024 09:40:18.652] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 96 ms
+[30Nov2024 09:40:18.653] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: justmorearmor
+[30Nov2024 09:40:18.902] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: justmorearmor finished after 249 ms
+[30Nov2024 09:40:18.903] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: justmorearmor
+[30Nov2024 09:40:19.074] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: justmorearmor finished after 171 ms
+[30Nov2024 09:40:19.075] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id justmorearmor
+[30Nov2024 09:40:19.091] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id justmorearmor finished after 15 ms
+[30Nov2024 09:40:19.091] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id justmorearmor
+[30Nov2024 09:40:19.095] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id justmorearmor finished after 3 ms
+[30Nov2024 09:40:19.095] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[30Nov2024 09:40:19.120] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 24 ms
+[30Nov2024 09:40:19.120] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 661 ms
+[30Nov2024 09:40:19.146] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 433, old count: 326, new count: 434, removed stale: 0, written: 109

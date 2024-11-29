@@ -28,6 +28,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.ENDERITE_STAIRS.get())
                 .add(ModBlocks.ENDERITE_SLAB.get())
 
+                .add(ModBlocks.HELLSTONE_ORE.get())
+                .add(ModBlocks.HELLSTONE_BLOCK.get())
+                .add(ModBlocks.HELLSTONE_STAIRS.get())
+                .add(ModBlocks.HELLSTONE_SLAB.get())
+
                 .add(ModBlocks.EMERALD_STAIRS.get())
                 .add(ModBlocks.EMERALD_SLAB.get());
 

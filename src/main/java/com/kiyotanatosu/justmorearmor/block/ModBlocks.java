@@ -23,6 +23,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ENDERITE_BLOCK = registerBlock("enderite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
 
+    public static final RegistryObject<Block> HELLSTONE_BLOCK = registerBlock("hellstone_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+
     //Stairs
     public static final RegistryObject<Block> ENDERITE_STAIRS = registerBlock("enderite_stairs",
             () -> new StairBlock(() -> ModBlocks.ENDERITE_BLOCK.get().defaultBlockState(),
@@ -32,6 +35,10 @@ public class ModBlocks {
             () -> new StairBlock(() -> Blocks.EMERALD_BLOCK.defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)));
 
+    public static final RegistryObject<Block> HELLSTONE_STAIRS = registerBlock("hellstone_stairs",
+            () -> new StairBlock(() -> ModBlocks.HELLSTONE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+
     //Slabs
     public static final RegistryObject<Block> ENDERITE_SLAB = registerBlock("enderite_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
@@ -39,9 +46,16 @@ public class ModBlocks {
     public static final RegistryObject<Block> EMERALD_SLAB = registerBlock("emerald_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)));
 
+    public static final RegistryObject<Block> HELLSTONE_SLAB = registerBlock("hellstone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(ModBlocks.HELLSTONE_BLOCK.get())));
+
     //Ore
     public static final RegistryObject<Block> ENDERITE_ORE = registerBlock("enderite_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(5, 2000).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> HELLSTONE_ORE = registerBlock("hellstone_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)
                     .strength(5, 2000).requiresCorrectToolForDrops()));
 
 

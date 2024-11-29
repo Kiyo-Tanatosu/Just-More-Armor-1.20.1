@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "justmorearmor:hellstone_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "CC ",
+    "CS ",
+    " S "
+  ],
+  "result": {
+    "item": "justmorearmor:hellstone_axe"
+  },
+  "show_notification": true
+}

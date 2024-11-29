@@ -1,7 +1,11 @@
-// 1.20.1	2024-11-28T23:58:34.7039688	Loot Tables
+// 1.20.1	2024-11-30T09:40:19.1236929	Loot Tables
 c09f365d7db2fbd83a8732fbb1a6d18f6308b987 data/justmorearmor/loot_tables/blocks/emerald_slab.json
 4dbcd39b22228084ce3e184827682c7fb123f3f2 data/justmorearmor/loot_tables/blocks/emerald_stairs.json
 3a1dd73f789649b4089fee98dd5af4b1e7788a60 data/justmorearmor/loot_tables/blocks/enderite_block.json
 e110cd49bbc3d9796943fc547d27263742b44290 data/justmorearmor/loot_tables/blocks/enderite_ore.json
 5d7424292defbad8c99857fe32aeb854fb8bc2f0 data/justmorearmor/loot_tables/blocks/enderite_slab.json
 8fb3b533756a310ff5b49d8273fbe615ab9df4e9 data/justmorearmor/loot_tables/blocks/enderite_stairs.json
+922ba78467598cb200e6ee77679a3df257a6dc54 data/justmorearmor/loot_tables/blocks/hellstone_block.json
+48563361c722e6ce771838601555c2c0be38de3f data/justmorearmor/loot_tables/blocks/hellstone_ore.json
+a0f98bd285ec7fdf8e417bbb693b0411edbfe74d data/justmorearmor/loot_tables/blocks/hellstone_slab.json
+257f3e004a7242d8ac7a5eb7fd0577f0179074d9 data/justmorearmor/loot_tables/blocks/hellstone_stairs.json

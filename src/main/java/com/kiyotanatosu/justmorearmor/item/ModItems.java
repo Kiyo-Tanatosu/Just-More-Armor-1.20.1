@@ -1,10 +1,7 @@
 package com.kiyotanatosu.justmorearmor.item;
 
 import com.kiyotanatosu.justmorearmor.JustMoreArmor;
-import com.kiyotanatosu.justmorearmor.item.custom.CopperArmorItem;
-import com.kiyotanatosu.justmorearmor.item.custom.EmeraldArmorItem;
-import com.kiyotanatosu.justmorearmor.item.custom.EnderiteArmorItem;
-import com.kiyotanatosu.justmorearmor.item.custom.PrismarineArmorItem;
+import com.kiyotanatosu.justmorearmor.item.custom.*;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,6 +18,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> ENDERITE_SCRAP = ITEMS.register("enderite_scrap",
             () -> new Item(new Item.Properties()));
+
+
+    public static final RegistryObject<Item> HELLSTONE_INGOT = ITEMS.register("hellstone_ingot",
+            () -> new Item(new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> HELLSTONE = ITEMS.register("hellstone",
+            () -> new Item(new Item.Properties().fireResistant()));
+
 
     //Tools
     public static final RegistryObject<Item> ENDERITE_SWORD = ITEMS.register("enderite_sword",
@@ -87,6 +92,22 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.PRISMARINE, -3, 0f, new Item.Properties()));
 
 
+    public static final RegistryObject<Item> HELLSTONE_SWORD = ITEMS.register("hellstone_sword",
+            () -> new SwordItem(ModToolTiers.ENDERITE, 3, -2.4f, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> HELLSTONE_PICKAXE = ITEMS.register("hellstone_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ENDERITE, 1, -2.8f, new Item.Properties()));
+
+    public static final RegistryObject<Item> HELLSTONE_AXE = ITEMS.register("hellstone_axe",
+            () -> new AxeItem(ModToolTiers.ENDERITE, 5, -3f, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> HELLSTONE_SHOVEL = ITEMS.register("hellstone_shovel",
+            () -> new ShovelItem(ModToolTiers.ENDERITE, 1, -3f, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> HELLSTONE_HOE = ITEMS.register("hellstone_hoe",
+            () -> new HoeItem(ModToolTiers.ENDERITE, -4, 0f, new Item.Properties().fireResistant()));
+
+
     //Armor
     public static final RegistryObject<Item> ENDERITE_HELMET = ITEMS.register("enderite_helmet",
             () -> new EnderiteArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -138,6 +159,19 @@ public class ModItems {
 
     public static final RegistryObject<Item> PRISMARINE_BOOTS = ITEMS.register("prismarine_boots",
             () -> new PrismarineArmorItem(ModArmorMaterials.PRISMARINE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+
+    public static final RegistryObject<Item> HELLSTONE_HELMET = ITEMS.register("hellstone_helmet",
+            () -> new HellstoneArmorItem(ModArmorMaterials.HELLSTONE, ArmorItem.Type.HELMET, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> HELLSTONE_CHESTPLATE = ITEMS.register("hellstone_chestplate",
+            () -> new HellstoneArmorItem(ModArmorMaterials.HELLSTONE, ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> HELLSTONE_LEGGINGS = ITEMS.register("hellstone_leggings",
+            () -> new HellstoneArmorItem(ModArmorMaterials.HELLSTONE, ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> HELLSTONE_BOOTS = ITEMS.register("hellstone_boots",
+            () -> new HellstoneArmorItem(ModArmorMaterials.HELLSTONE, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
 
 
     public static void register(IEventBus eventBus) {

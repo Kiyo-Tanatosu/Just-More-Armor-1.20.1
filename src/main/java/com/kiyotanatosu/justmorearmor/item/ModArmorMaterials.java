@@ -21,7 +21,12 @@ public enum ModArmorMaterials implements ArmorMaterial {
             SoundEvents.ARMOR_EQUIP_IRON, 0f, 0f, () -> Ingredient.of(Items.COPPER_INGOT)),
 
     PRISMARINE("prismarine", 33, new int[]{ 3, 8, 6, 3 }, 9,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 1f, 0f, () -> Ingredient.of(Items.PRISMARINE));
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 1f, 0f, () -> Ingredient.of(Items.PRISMARINE)),
+
+    HELLSTONE("hellstone", 55, new int[]{ 4, 9, 7, 4 }, 25,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 0.1f, () -> Ingredient.of(ModItems.HELLSTONE_INGOT.get()));
+
+
 
 
 

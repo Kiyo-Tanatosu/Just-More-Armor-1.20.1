@@ -49,14 +49,21 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         evenSimplerBlockItem(ModBlocks.EMERALD_STAIRS);
 
+        evenSimplerBlockItem(ModBlocks.HELLSTONE_STAIRS);
+
         //Slabs
         evenSimplerBlockItem(ModBlocks.ENDERITE_SLAB);
 
         evenSimplerBlockItem(ModBlocks.EMERALD_SLAB);
 
+        evenSimplerBlockItem(ModBlocks.HELLSTONE_SLAB);
+
         //Items
         simpleItem(ModItems.ENDERITE_INGOT);
         simpleItem(ModItems.ENDERITE_SCRAP);
+
+        simpleItem(ModItems.HELLSTONE_INGOT);
+        simpleItem(ModItems.HELLSTONE);
 
         //Tools
         handheldItem(ModItems.ENDERITE_SWORD);
@@ -83,6 +90,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.PRISMARINE_SHOVEL);
         handheldItem(ModItems.PRISMARINE_HOE);
 
+        handheldItem(ModItems.HELLSTONE_SWORD);
+        handheldItem(ModItems.HELLSTONE_PICKAXE);
+        handheldItem(ModItems.HELLSTONE_AXE);
+        handheldItem(ModItems.HELLSTONE_SHOVEL);
+        handheldItem(ModItems.HELLSTONE_HOE);
+
         //Armor
         trimmedArmorItem(ModItems.ENDERITE_HELMET);
         trimmedArmorItem(ModItems.ENDERITE_CHESTPLATE);
@@ -103,6 +116,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.PRISMARINE_CHESTPLATE);
         trimmedArmorItem(ModItems.PRISMARINE_LEGGINGS);
         trimmedArmorItem(ModItems.PRISMARINE_BOOTS);
+
+        trimmedArmorItem(ModItems.HELLSTONE_HELMET);
+        trimmedArmorItem(ModItems.HELLSTONE_CHESTPLATE);
+        trimmedArmorItem(ModItems.HELLSTONE_LEGGINGS);
+        trimmedArmorItem(ModItems.HELLSTONE_BOOTS);
 
 
     }

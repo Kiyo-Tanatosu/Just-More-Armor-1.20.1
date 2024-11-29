@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "justmorearmor:block/hellstone_slab"
+    },
+    "type=double": {
+      "model": "justmorearmor:block/hellstone_block"
+    },
+    "type=top": {
+      "model": "justmorearmor:block/hellstone_slab_top"
+    }
+  }
+}

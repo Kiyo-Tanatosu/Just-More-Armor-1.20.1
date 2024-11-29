@@ -22,6 +22,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     private static final List<ItemLike> ENDERITE_ORE_SMELTABLES = List.of(ModItems.ENDERITE_SCRAP.get(),
             ModBlocks.ENDERITE_ORE.get());
 
+    private static final List<ItemLike> HELLSTONE_ORE_SMELTABLES = List.of(ModItems.HELLSTONE.get(),
+            ModBlocks.HELLSTONE_ORE.get());
+
 
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
@@ -34,6 +37,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(pWriter, ENDERITE_ORE_SMELTABLES, RecipeCategory.MISC, ModItems.ENDERITE_SCRAP.get(), 1f, 100, "enderite_scrap");
         oreSmelting(pWriter, ENDERITE_ORE_SMELTABLES, RecipeCategory.MISC, ModItems.ENDERITE_SCRAP.get(), 1f, 200, "enderite_scrap");
 
+        oreBlasting(pWriter, HELLSTONE_ORE_SMELTABLES, RecipeCategory.MISC, ModItems.HELLSTONE.get(), 1f, 100, "hellstone");
+        oreSmelting(pWriter, HELLSTONE_ORE_SMELTABLES, RecipeCategory.MISC, ModItems.HELLSTONE.get(), 1f, 200, "hellstone");
+
         //Items
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_INGOT.get())
                 .pattern("CCC")
@@ -44,6 +50,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ENDERITE_SCRAP.get()), has(ModItems.ENDERITE_SCRAP.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HELLSTONE_INGOT.get())
+                .pattern("CCC")
+                .pattern("CSS")
+                .pattern("SS ")
+                .define('C', ModItems.HELLSTONE.get())
+                .define('S', Items.GOLD_INGOT)
+                .unlockedBy(getHasName(ModItems.HELLSTONE.get()), has(ModItems.HELLSTONE.get()))
+                .save(pWriter);
+
         //Blocks
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDERITE_BLOCK.get())
                 .pattern("CCC")
@@ -51,6 +66,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("CCC")
                 .define('C', ModItems.ENDERITE_INGOT.get())
                 .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.HELLSTONE_BLOCK.get())
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .define('C', ModItems.HELLSTONE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.HELLSTONE_INGOT.get()), has(ModItems.HELLSTONE_INGOT.get()))
                 .save(pWriter);
 
         //Stairs
@@ -71,6 +94,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Blocks.EMERALD_BLOCK), has(Blocks.EMERALD_BLOCK))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.HELLSTONE_STAIRS.get(), 4)
+                .pattern("C  ")
+                .pattern("CC ")
+                .pattern("CCC")
+                .define('C', ModBlocks.HELLSTONE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.HELLSTONE_BLOCK.get()), has(ModBlocks.HELLSTONE_BLOCK.get()))
+                .save(pWriter);
+
         //Slabs
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDERITE_SLAB.get(), 2)
                 .pattern("   ")
@@ -87,6 +118,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("CCC")
                 .define('C', Blocks.EMERALD_BLOCK)
                 .unlockedBy(getHasName(Blocks.EMERALD_BLOCK), has(Blocks.EMERALD_BLOCK))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.HELLSTONE_SLAB.get(), 2)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("CCC")
+                .define('C', ModBlocks.HELLSTONE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.HELLSTONE_BLOCK.get()), has(ModBlocks.HELLSTONE_BLOCK.get()))
                 .save(pWriter);
 
         //Tools
@@ -274,6 +313,52 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HELLSTONE_SWORD.get())
+                .pattern(" C ")
+                .pattern(" C ")
+                .pattern(" S ")
+                .define('C', ModItems.HELLSTONE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.HELLSTONE_INGOT.get()), has(ModItems.HELLSTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HELLSTONE_PICKAXE.get())
+                .pattern("CCC")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', ModItems.HELLSTONE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.HELLSTONE_INGOT.get()), has(ModItems.HELLSTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HELLSTONE_AXE.get())
+                .pattern("CC ")
+                .pattern("CS ")
+                .pattern(" S ")
+                .define('C', ModItems.HELLSTONE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.HELLSTONE_INGOT.get()), has(ModItems.HELLSTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HELLSTONE_SHOVEL.get())
+                .pattern(" C ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', ModItems.HELLSTONE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.HELLSTONE_INGOT.get()), has(ModItems.HELLSTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HELLSTONE_HOE.get())
+                .pattern("CC ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', ModItems.HELLSTONE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.HELLSTONE_INGOT.get()), has(ModItems.HELLSTONE_INGOT.get()))
+                .save(pWriter);
+
+
         //Armor
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_HELMET.get())
                 .pattern("CNC")
@@ -408,6 +493,40 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("   ")
                 .define('C', Items.PRISMARINE_SHARD)
                 .unlockedBy(getHasName(Items.PRISMARINE_SHARD), has(Items.PRISMARINE_SHARD))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HELLSTONE_HELMET.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("   ")
+                .define('C', ModItems.HELLSTONE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.HELLSTONE_INGOT.get()), has(ModItems.HELLSTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HELLSTONE_CHESTPLATE.get())
+                .pattern("C C")
+                .pattern("CNC")
+                .pattern("CCC")
+                .define('C', ModItems.HELLSTONE_INGOT.get())
+                .define('N', Items.NETHER_STAR)
+                .unlockedBy(getHasName(ModItems.HELLSTONE_INGOT.get()), has(ModItems.HELLSTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HELLSTONE_LEGGINGS.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("C C")
+                .define('C', ModItems.HELLSTONE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.HELLSTONE_INGOT.get()), has(ModItems.HELLSTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HELLSTONE_BOOTS.get())
+                .pattern("C C")
+                .pattern("C C")
+                .pattern("   ")
+                .define('C', ModItems.HELLSTONE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.HELLSTONE_INGOT.get()), has(ModItems.HELLSTONE_INGOT.get()))
                 .save(pWriter);
     }
 

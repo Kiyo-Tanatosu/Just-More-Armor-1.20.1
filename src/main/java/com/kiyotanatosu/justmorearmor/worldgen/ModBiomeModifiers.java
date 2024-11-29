@@ -15,6 +15,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_ENDERITE_ORE = registerKey("add_enderite_ore");
 
+    public static final ResourceKey<BiomeModifier> ADD_HELLSTONE_ORE = registerKey("add_hellstonee_ore");
+
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
@@ -25,10 +27,10 @@ public class ModBiomeModifiers {
                 //HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.SAPPHIRE_ORE_PLACED_KEY)),
                 //GenerationStep.Decoration.UNDERGROUND_ORES));
 
-        //context.register(ADD_NETHER_SAPPHIRE_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                //biomes.getOrThrow(BiomeTags.IS_NETHER),
-                //HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_SAPPHIRE_ORE_PLACED_KEY)),
-                //GenerationStep.Decoration.UNDERGROUND_ORES));
+        context.register(ADD_HELLSTONE_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_NETHER),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HELLSTONE_ORE_PLACED_KEY)),
+                GenerationStep.Decoration.UNDERGROUND_ORES));
 
         context.register(ADD_ENDERITE_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),

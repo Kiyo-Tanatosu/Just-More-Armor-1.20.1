@@ -2,10 +2,18 @@
   "item.justmorearmor.enderite_ingot": "Enderite Ingot",
   "item.justmorearmor.enderite_scrap": "Enderite Scrap",
 
+  "item.justmorearmor.hellstone_ingot": "Hellstone Ingot",
+  "item.justmorearmor.hellstone": "Hellstone",
+
   "block.justmorearmor.enderite_ore": "Enderite Ore",
   "block.justmorearmor.enderite_block": "Enderite Block",
   "block.justmorearmor.enderite_stairs": "Enderite Stairs",
   "block.justmorearmor.enderite_slab": "Enderite Slab",
+
+  "block.justmorearmor.hellstone_ore": "Hellstone Ore",
+  "block.justmorearmor.hellstone_block": "Hellstone Block",
+  "block.justmorearmor.hellstone_stairs": "Hellstone Stairs",
+  "block.justmorearmor.hellstone_slab": "Hellstone Slab",
 
   "block.justmorearmor.emerald_stairs": "Emerald Stairs",
   "block.justmorearmor.emerald_slab": "Emerald Slab",
@@ -15,6 +23,12 @@
   "item.justmorearmor.enderite_axe": "Enderite Axe",
   "item.justmorearmor.enderite_shovel": "Enderite Shovel",
   "item.justmorearmor.enderite_hoe": "Enderite Hoe",
+
+  "item.justmorearmor.hellstone_sword": "Hellstone Sword",
+  "item.justmorearmor.hellstone_pickaxe": "Hellstone Pickaxe",
+  "item.justmorearmor.hellstone_axe": "Hellstone Axe",
+  "item.justmorearmor.hellstone_shovel": "Hellstone Shovel",
+  "item.justmorearmor.hellstone_hoe": "Hellstone Hoe",
 
   "item.justmorearmor.emerald_sword": "Emerald Sword",
   "item.justmorearmor.emerald_pickaxe": "Emerald Pickaxe",
@@ -38,6 +52,11 @@
   "item.justmorearmor.enderite_chestplate": "Enderite Chestplate",
   "item.justmorearmor.enderite_leggings": "Enderite Leggings",
   "item.justmorearmor.enderite_boots": "Enderite Boots",
+
+  "item.justmorearmor.hellstone_helmet": "Hellstone Helmet",
+  "item.justmorearmor.hellstone_chestplate": "Hellstone Chestplate",
+  "item.justmorearmor.hellstone_leggings": "Hellstone Leggings",
+  "item.justmorearmor.hellstone_boots": "Hellstone Boots",
 
   "item.justmorearmor.emerald_helmet": "Emerald Helmet",
   "item.justmorearmor.emerald_chestplate": "Emerald Chestplate",
