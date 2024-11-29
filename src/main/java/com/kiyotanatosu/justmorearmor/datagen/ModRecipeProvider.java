@@ -71,7 +71,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Blocks.EMERALD_BLOCK), has(Blocks.EMERALD_BLOCK))
                 .save(pWriter);
 
-        //Slab
+        //Slabs
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDERITE_SLAB.get(), 2)
                 .pattern("   ")
                 .pattern("   ")
@@ -181,6 +181,99 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
                 .save(pWriter);
 
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_SWORD.get())
+                .pattern(" C ")
+                .pattern(" C ")
+                .pattern(" S ")
+                .define('C', Items.COPPER_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_PICKAXE.get())
+                .pattern("CCC")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', Items.COPPER_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_AXE.get())
+                .pattern("CC ")
+                .pattern("CS ")
+                .pattern(" S ")
+                .define('C', Items.COPPER_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_SHOVEL.get())
+                .pattern(" C ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', Items.COPPER_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_HOE.get())
+                .pattern("CC ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', Items.COPPER_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PRISMARINE_SWORD.get())
+                .pattern(" C ")
+                .pattern(" C ")
+                .pattern(" S ")
+                .define('C', Items.PRISMARINE_SHARD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.PRISMARINE_SHARD), has(Items.PRISMARINE_SHARD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PRISMARINE_PICKAXE.get())
+                .pattern("CCC")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', Items.PRISMARINE_SHARD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.PRISMARINE_SHARD), has(Items.PRISMARINE_SHARD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PRISMARINE_AXE.get())
+                .pattern("CC ")
+                .pattern("CS ")
+                .pattern(" S ")
+                .define('C', Items.PRISMARINE_SHARD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.PRISMARINE_SHARD), has(Items.PRISMARINE_SHARD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PRISMARINE_SHOVEL.get())
+                .pattern(" C ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', Items.PRISMARINE_SHARD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.PRISMARINE_SHARD), has(Items.PRISMARINE_SHARD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PRISMARINE_HOE.get())
+                .pattern("CC ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('C', Items.PRISMARINE_SHARD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.PRISMARINE_SHARD), has(Items.PRISMARINE_SHARD))
+                .save(pWriter);
+
+
         //Armor
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_HELMET.get())
                 .pattern("CNC")
@@ -249,6 +342,73 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
                 .save(pWriter);
 
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_HELMET.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("   ")
+                .define('C', Items.COPPER_INGOT)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_CHESTPLATE.get())
+                .pattern("C C")
+                .pattern("CCC")
+                .pattern("CCC")
+                .define('C', Items.COPPER_INGOT)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_LEGGINGS.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("C C")
+                .define('C', Items.COPPER_INGOT)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_BOOTS.get())
+                .pattern("C C")
+                .pattern("C C")
+                .pattern("   ")
+                .define('C', Items.COPPER_INGOT)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PRISMARINE_HELMET.get())
+                .pattern("CNC")
+                .pattern("C C")
+                .pattern("   ")
+                .define('C', Items.PRISMARINE_SHARD)
+                .define('N', Items.HEART_OF_THE_SEA)
+                .unlockedBy(getHasName(Items.PRISMARINE_SHARD), has(Items.PRISMARINE_SHARD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PRISMARINE_CHESTPLATE.get())
+                .pattern("C C")
+                .pattern("CNC")
+                .pattern("CCC")
+                .define('C', Items.PRISMARINE_SHARD)
+                .define('N', Items.HEART_OF_THE_SEA)
+                .unlockedBy(getHasName(Items.PRISMARINE_SHARD), has(Items.PRISMARINE_SHARD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PRISMARINE_LEGGINGS.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("C C")
+                .define('C', Items.PRISMARINE_SHARD)
+                .unlockedBy(getHasName(Items.PRISMARINE_SHARD), has(Items.PRISMARINE_SHARD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PRISMARINE_BOOTS.get())
+                .pattern("C C")
+                .pattern("C C")
+                .pattern("   ")
+                .define('C', Items.PRISMARINE_SHARD)
+                .unlockedBy(getHasName(Items.PRISMARINE_SHARD), has(Items.PRISMARINE_SHARD))
+                .save(pWriter);
     }
 
 

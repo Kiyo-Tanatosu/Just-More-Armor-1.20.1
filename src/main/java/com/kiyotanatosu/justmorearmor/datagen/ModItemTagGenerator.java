@@ -33,5 +33,17 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.EMERALD_LEGGINGS.get(),
                         ModItems.EMERALD_BOOTS.get());
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.COPPER_HELMET.get(),
+                        ModItems.COPPER_CHESTPLATE.get(),
+                        ModItems.COPPER_LEGGINGS.get(),
+                        ModItems.COPPER_BOOTS.get());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.PRISMARINE_HELMET.get(),
+                        ModItems.PRISMARINE_CHESTPLATE.get(),
+                        ModItems.PRISMARINE_LEGGINGS.get(),
+                        ModItems.PRISMARINE_BOOTS.get());
+
     }
 }

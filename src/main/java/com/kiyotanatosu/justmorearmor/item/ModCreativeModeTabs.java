@@ -52,6 +52,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EMERALD_SHOVEL.get());
                         output.accept(ModItems.EMERALD_HOE.get());
 
+                        output.accept(ModItems.COPPER_SWORD.get());
+                        output.accept(ModItems.COPPER_PICKAXE.get());
+                        output.accept(ModItems.COPPER_AXE.get());
+                        output.accept(ModItems.COPPER_SHOVEL.get());
+                        output.accept(ModItems.COPPER_HOE.get());
+
+                        output.accept(ModItems.PRISMARINE_SWORD.get());
+                        output.accept(ModItems.PRISMARINE_PICKAXE.get());
+                        output.accept(ModItems.PRISMARINE_AXE.get());
+                        output.accept(ModItems.PRISMARINE_SHOVEL.get());
+                        output.accept(ModItems.PRISMARINE_HOE.get());
+
                         //Armor
                         output.accept(ModItems.ENDERITE_HELMET.get());
                         output.accept(ModItems.ENDERITE_CHESTPLATE.get());
@@ -62,6 +74,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EMERALD_CHESTPLATE.get());
                         output.accept(ModItems.EMERALD_LEGGINGS.get());
                         output.accept(ModItems.EMERALD_BOOTS.get());
+
+                        output.accept(ModItems.COPPER_HELMET.get());
+                        output.accept(ModItems.COPPER_CHESTPLATE.get());
+                        output.accept(ModItems.COPPER_LEGGINGS.get());
+                        output.accept(ModItems.COPPER_BOOTS.get());
+
+                        output.accept(ModItems.PRISMARINE_HELMET.get());
+                        output.accept(ModItems.PRISMARINE_CHESTPLATE.get());
+                        output.accept(ModItems.PRISMARINE_LEGGINGS.get());
+                        output.accept(ModItems.PRISMARINE_BOOTS.get());
+
 
                     })
                     .build());

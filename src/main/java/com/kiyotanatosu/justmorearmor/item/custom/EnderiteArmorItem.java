@@ -19,6 +19,7 @@ public class EnderiteArmorItem extends ArmorItem {
     static {
         Multimap<ArmorMaterial, MobEffectInstance> map = ArrayListMultimap.create();
         map.put(ModArmorMaterials.ENDERITE, new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 300, 1, false, false, true));
+        map.put(ModArmorMaterials.ENDERITE, new MobEffectInstance(MobEffects.NIGHT_VISION, 300, 1, false, false, true));
         MATERIAL_TO_EFFECT_MAP = map;
     }
 

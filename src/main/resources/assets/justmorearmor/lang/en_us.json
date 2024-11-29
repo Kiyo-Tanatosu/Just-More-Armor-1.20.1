@@ -22,6 +22,18 @@
   "item.justmorearmor.emerald_shovel": "Emerald Shovel",
   "item.justmorearmor.emerald_hoe": "Emerald Hoe",
 
+  "item.justmorearmor.copper_sword": "Emerald Sword",
+  "item.justmorearmor.copper_pickaxe": "Emerald Pickaxe",
+  "item.justmorearmor.copper_axe": "Emerald Axe",
+  "item.justmorearmor.copper_shovel": "Emerald Shovel",
+  "item.justmorearmor.copper_hoe": "Emerald Hoe",
+
+  "item.justmorearmor.prismarine_sword": "Emerald Sword",
+  "item.justmorearmor.prismarine_pickaxe": "Emerald Pickaxe",
+  "item.justmorearmor.prismarine_axe": "Emerald Axe",
+  "item.justmorearmor.prismarine_shovel": "Emerald Shovel",
+  "item.justmorearmor.prismarine_hoe": "Emerald Hoe",
+
   "item.justmorearmor.enderite_helmet": "Enderite Helmet",
   "item.justmorearmor.enderite_chestplate": "Enderite Chestplate",
   "item.justmorearmor.enderite_leggings": "Enderite Leggings",
@@ -31,6 +43,16 @@
   "item.justmorearmor.emerald_chestplate": "Emerald Chestplate",
   "item.justmorearmor.emerald_leggings": "Emerald Leggings",
   "item.justmorearmor.emerald_boots": "Emerald Boots",
+
+  "item.justmorearmor.copper_helmet": "Copper Helmet",
+  "item.justmorearmor.copper_chestplate": "Copper Chestplate",
+  "item.justmorearmor.copper_leggings": "Copper Leggings",
+  "item.justmorearmor.copper_boots": "Copper Boots",
+
+  "item.justmorearmor.prismarine_helmet": "Prismarine Helmet",
+  "item.justmorearmor.prismarine_chestplate": "Prismarine Chestplate",
+  "item.justmorearmor.prismarine_leggings": "Prismarine Leggings",
+  "item.justmorearmor.prismarine_boots": "Prismarine Boots",
 
   "creativetab.just_more_armor_and_tools_tab": "Just More Armor And Tools"
 }

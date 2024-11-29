@@ -25,4 +25,14 @@ public class ModToolTiers {
             new ForgeTier(3,1561, 8f, 3f, 10,
                     BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(Items.EMERALD)),
             new ResourceLocation(JustMoreArmor.MOD_ID, "emerald"), List.of(Tiers.IRON), List.of());
+
+    public static final Tier COPPER = TierSortingRegistry.registerTier(
+            new ForgeTier(2,200, 6f, 2f, 14,
+                    BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(Items.COPPER_INGOT)),
+            new ResourceLocation(JustMoreArmor.MOD_ID, "copper"), List.of(Tiers.STONE), List.of());
+
+    public static final Tier PRISMARINE = TierSortingRegistry.registerTier(
+            new ForgeTier(3,1561, 8f, 3f, 15,
+                    BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(Items.PRISMARINE)),
+            new ResourceLocation(JustMoreArmor.MOD_ID, "prismarine"), List.of(Tiers.IRON), List.of());
 }

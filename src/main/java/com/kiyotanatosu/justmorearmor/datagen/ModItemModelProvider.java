@@ -71,6 +71,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.EMERALD_SHOVEL);
         handheldItem(ModItems.EMERALD_HOE);
 
+        handheldItem(ModItems.COPPER_SWORD);
+        handheldItem(ModItems.COPPER_PICKAXE);
+        handheldItem(ModItems.COPPER_AXE);
+        handheldItem(ModItems.COPPER_SHOVEL);
+        handheldItem(ModItems.COPPER_HOE);
+
+        handheldItem(ModItems.PRISMARINE_SWORD);
+        handheldItem(ModItems.PRISMARINE_PICKAXE);
+        handheldItem(ModItems.PRISMARINE_AXE);
+        handheldItem(ModItems.PRISMARINE_SHOVEL);
+        handheldItem(ModItems.PRISMARINE_HOE);
+
         //Armor
         trimmedArmorItem(ModItems.ENDERITE_HELMET);
         trimmedArmorItem(ModItems.ENDERITE_CHESTPLATE);
@@ -81,6 +93,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
         trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
         trimmedArmorItem(ModItems.EMERALD_BOOTS);
+
+        trimmedArmorItem(ModItems.COPPER_HELMET);
+        trimmedArmorItem(ModItems.COPPER_CHESTPLATE);
+        trimmedArmorItem(ModItems.COPPER_LEGGINGS);
+        trimmedArmorItem(ModItems.COPPER_BOOTS);
+
+        trimmedArmorItem(ModItems.PRISMARINE_HELMET);
+        trimmedArmorItem(ModItems.PRISMARINE_CHESTPLATE);
+        trimmedArmorItem(ModItems.PRISMARINE_LEGGINGS);
+        trimmedArmorItem(ModItems.PRISMARINE_BOOTS);
+
 
     }
 
